@@ -24,7 +24,11 @@ class HomeScreen extends StatelessWidget {
       ),
       body: const Padding(
         padding: EdgeInsets.all(16.0),
-        child: Column(children: [AnimatedContainerWidget()]),
+        child: Column(
+          children: [
+            AnimatedContainerWidget()
+          ],
+        ),
       ),
     );
   }
