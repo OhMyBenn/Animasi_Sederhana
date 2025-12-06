@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:simple_animation/widgets/animated_container.dart';
+import 'package:simple_animation/widgets/animated_cross_fade.dart';
+import 'package:simple_animation/widgets/animated_opacity.dart';
 
 void main() {
   runApp(const MyApp());
@@ -26,7 +28,11 @@ class HomeScreen extends StatelessWidget {
         padding: EdgeInsets.all(16.0),
         child: Column(
           children: [
-            AnimatedContainerWidget()
+            AnimatedContainerWidget(),
+            Divider(),
+            AnimatedCrossFadeWidget(),
+            Divider(),
+            AnimatedOpacityWidget(),
           ],
         ),
       ),

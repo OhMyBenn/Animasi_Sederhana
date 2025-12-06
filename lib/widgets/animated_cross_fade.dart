@@ -34,7 +34,7 @@ class _AnimatedCrossFadeWidgetState extends State<AnimatedCrossFadeWidget> {
                   width: 100.0,
                 ),
                 secondChild: Container(
-                  color: Colors.lime,
+                  color: Colors.blue,
                   height: 200.0,
                   width: 200.0,
               ),
